@@ -223,32 +223,28 @@ function create_config( )
     "download_media",
     "invite",
     "all",
+    "anti_link",
+    "begu",
+    "feedback",
+    "t2i",
+    "version",
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {(136888679,164100672,167268835)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[TeleSalib V2 - 
 An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
-
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
-
+@Xx_king_salib_Xx [sudo]
+@Mr_Vigeo [sudo]
+@Xx_minister_salib_xX [sudo]
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
+@Mr_Vigeo 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@TeleSalibCh [English]
+@TeleSalibCh [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -314,15 +310,7 @@ Only sudo users can run this command
 This command will send text to [group_id]
 
 
-**U can use both "/" and "!" 
-
-
-*Only admins and sudo can add bots in group
-
-
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only admins and sudo can use res, setowner, commands
+تمامی دستورات بدون علامت هستند*
 ]],
     help_text = [[
 Commands list :
@@ -423,12 +411,7 @@ will return group ban list
 **U can use both "/" and "!" 
 
 
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
+*تمامی دستورات بدون علامت هستند.
 
 ]]
   }
