@@ -231,20 +231,17 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {167268835,164100672,136888679},
+    sudo_users = {136888679},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[TeleSalib V2 - 
-An advance Administration bot based on yagop/telegram-bot 
-Admins
-@Xx_king_salib_Xx [sudo]
+    about_text = [[بات ورژن1 - 
+ساخته شده از روی تلگرام بات یاگوپ
+مدیرا
 @Mr_Vigeo [sudo]
-@Xx_minister_salib_xX [sudo]
-Special thanks to
+تشکر از
 @Mr_Vigeo 
-Our channels
-@TeleSalibCh [English]
-@TeleSalibCh [persian]
+چنل ها
+@pluginlua [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
